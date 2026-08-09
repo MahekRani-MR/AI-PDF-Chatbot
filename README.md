@@ -78,19 +78,17 @@ AI-PDF-Chatbot/
 
 ## 📌 Main Files
 
-```text
-app.py – Main Streamlit application and user interface.
-pdf_loader.py – Loads and extracts content from PDF files.
-embeddings.py – Loads the Hugging Face embedding model.
-vectorstore.py – Splits documents and creates the FAISS vector store.
-rag_pipeline.py – Handles document retrieval and response generation.
-rag_chain.py – Contains the LLM and prompt configuration.
-requirements.txt – Contains the required Python packages.
-```
+- app.py – Main Streamlit application and user interface.
+- pdf_loader.py – Loads and extracts content from PDF files.
+- embeddings.py – Loads the Hugging Face embedding model.
+- vectorstore.py – Splits documents and creates the FAISS vector store.
+- rag_pipeline.py – Handles document retrieval and response generation.
+- rag_chain.py – Contains the LLM and prompt configuration.
+- requirements.txt – Contains the required Python packages.
+
 
 ## ⚙️ Installation
 
-```text
 Clone the repository:
 
 git clone https://github.com/MahekRani-MR/AI-PDF-Chatbot.git
@@ -102,11 +100,9 @@ cd AI-PDF-Chatbot
 Install the required dependencies:
 
 pip install -r requirements.txt
-```
 
 ## 🔑 API Key Setup
 
-```text
 This project uses the Groq API for generating responses.
 
 Create a .env file in the project directory:
@@ -118,32 +114,27 @@ Replace your_groq_api_key with your actual Groq API key.
 Never upload your .env file or expose your API key publicly.
 
 The .env file is included in .gitignore.
-```
 
 ## ▶️ Run the Application
 
-```text
 Start the Streamlit application:
 
 streamlit run app.py
 
 The application will open in your browser at the local Streamlit URL shown in the terminal.
-```
 
 ## 💬 How to Use
 
-```text
-Open the AI PDF Chatbot application.
-Upload a PDF using the sidebar.
-Wait for the document to be processed.
-Enter your question in the chat box.
-The application searches the uploaded document for relevant information.
-Relevant document chunks are retrieved using FAISS.
-The retrieved information is passed to the Groq language model.
-The chatbot generates an answer.
-The relevant source page is displayed with the answer.
-General questions can also be asked without uploading a PDF.
-```
+- Open the AI PDF Chatbot application.
+- Upload a PDF using the sidebar.
+- Wait for the document to be processed.
+- Enter your question in the chat box.
+- The application searches the uploaded document for relevant information.
+- Relevant document chunks are retrieved using FAISS.
+- The retrieved information is passed to the Groq language model.
+- The chatbot generates an answer.
+- The relevant source page is displayed with the answer.
+- General questions can also be asked without uploading a PDF.
 
 ## 🧠 RAG Pipeline
 
@@ -175,24 +166,20 @@ RAG allows the chatbot to retrieve relevant information from the uploaded docume
 
 ## 📌 Project Purpose
 
-```text
 This project was developed as a practical implementation of Retrieval-Augmented Generation (RAG) using Python, LangChain, FAISS, Hugging Face embeddings, Groq, and Streamlit.
 
 The main purpose is to provide an easy-to-use chatbot that can interact with information contained in PDF documents.
-```
 
 ## 🔮 Future Improvements
 
-```text
-Support for multiple PDF documents
-Improved chat history and conversation memory
-Better source and citation display
-Support for additional document formats
-Improved document management
-Further UI customization
-Deployment on Streamlit Cloud
-Improved response speed and retrieval accuracy
-```
+- Support for multiple PDF documents
+- Improved chat history and conversation memory
+- Better source and citation display
+- Support for additional document formats
+- Improved document management
+- Further UI customization
+- Deployment on Streamlit Cloud
+- Improved response speed and retrieval accuracy
 
 ## 📄 License
 
