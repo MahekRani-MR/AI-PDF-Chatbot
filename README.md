@@ -91,15 +91,21 @@ AI-PDF-Chatbot/
 
 Clone the repository:
 
+``` powersell
 git clone https://github.com/MahekRani-MR/AI-PDF-Chatbot.git
+``` 
 
 Move into the project directory:
 
+``` powershell
 cd AI-PDF-Chatbot
+```
 
 Install the required dependencies:
 
+``` powershell
 pip install -r requirements.txt
+```
 
 ## 🔑 API Key Setup
 
@@ -107,7 +113,9 @@ This project uses the Groq API for generating responses.
 
 Create a .env file in the project directory:
 
+```powershell
 GROQ_API_KEY=your_groq_api_key
+```
 
 Replace your_groq_api_key with your actual Groq API key.
 
@@ -119,7 +127,9 @@ The .env file is included in .gitignore.
 
 Start the Streamlit application:
 
+``` powershell
 streamlit run app.py
+```
 
 The application will open in your browser at the local Streamlit URL shown in the terminal.
 
