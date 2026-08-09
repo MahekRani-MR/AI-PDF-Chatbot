@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+uploaded_pdfs/
+vectorstore/
+.vscode/
+.ipynb_checkpoints/
+.venv/
+desktop.ini
