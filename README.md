@@ -1,17 +1,2 @@
-# AI PDF Chatbot
-
-A Retrieval-Augmented Generation (RAG) chatbot built using:
-
-- Streamlit
-- LangChain
-- Groq Llama 3.1
-- FAISS
-- HuggingFace Embeddings
-
-## Features
-
-- Upload PDFs
-- Chat with PDFs
-- Semantic Search
-- AI-powered Answers
-- Source Citations
+# AI-PDF-Chatbot
+AI PDF Chatbot — An intelligent RAG-based chatbot that allows users to upload PDF documents and ask questions using natural language. Built with Streamlit, LangChain, FAISS, Hugging Face embeddings, and Groq Llama 3.1.
