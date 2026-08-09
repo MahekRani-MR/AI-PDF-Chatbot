@@ -8,6 +8,7 @@ python-dotenv = "*"
 langchain-groq = "*"
 langchain-community = "*"
 langchain-huggingface = "*"
+fpdf2 = "*"
 
 [dev-packages]
 
