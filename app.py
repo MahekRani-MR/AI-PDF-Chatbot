@@ -707,7 +707,7 @@ with st.sidebar:
 st.markdown(
     """
     <div class="hero">
-        <div class="badge">✨ AI-Powered Assistant</div>
+        <div class="badge">🚀 Turn PDFs Into Conversations</div>
         <div class="title-row">
             <div class="main-title">🤖 AI PDF Chatbot</div>
         </div>
